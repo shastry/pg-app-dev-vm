@@ -65,6 +65,10 @@ Or alternatively, why not [Chef](http://www.getchef.com/chef/), [Puppet](http://
 
 Mainly because it's simple and anybody with a basic knowledge of shell scripting can tweak the `bootstrap.sh` to their liking.
 
+### An option from Digital Ocean
+
+https://app.vagrantup.com/mbr/boxes/postgres
+
 ### License
 
 This is released under the MIT license. See the file [LICENSE](LICENSE).
