@@ -30,7 +30,7 @@ Then, run the following to create a new PostgreSQL app dev virtual machine:
 
 ### What does it do?
 
-It creates a virtual server running Ubuntu 16.04 with the latest version of PostgreSQL (*as of writing 10.2*) installed. It also edits the PostgreSQL configuration files to allow network access and creates a database user/database for your application to use.
+It creates a virtual server running Debian 9 (Stretch) with the latest version of PostgreSQL (*as of writing 10.2*) installed. It also edits the PostgreSQL configuration files to allow network access and creates a database user/database for your application to use.
 
 Once it has started up it will print out how to access the database on the virtual machine. It will look something like this:
 

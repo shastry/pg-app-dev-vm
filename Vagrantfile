@@ -11,7 +11,7 @@ Vagrant.configure("2") do |config|
 end
 
 Vagrant::Config.run do |config|
-  config.vm.box = "ubuntu/xenial64"
+  config.vm.box = "debian/contrib-stretch64"
   config.vm.host_name = "postgresql"
 
   config.vm.share_folder "bootstrap", "/mnt/bootstrap", ".", :create => true
